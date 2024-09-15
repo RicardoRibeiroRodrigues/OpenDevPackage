@@ -7,6 +7,6 @@ setup(
     packages=["dev_aberto"],
     author="Ricardo Rodrigues",
     platforms=["Linux", "MacOS", "Windows"],
-    install_requires=["requests"],
+    install_requires=["requests", "Babel"],
     scripts=["scripts/hello.py"],
 )
